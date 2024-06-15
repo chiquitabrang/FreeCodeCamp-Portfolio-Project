@@ -1,0 +1,182 @@
+@media only screen and (max-width: 89.6rem) {
+    #nav-bar a {
+        font-size: 2rem;
+    }
+    .link {
+        font-size: 1.5rem;
+    }
+    .section-hero {
+        margin: 6rem 20rem;
+    }
+    .section-hero p {
+        font-size: 3rem;
+    }
+    .section-hero h1 {
+        font-size: 4.5rem;
+    }
+    .section-hero h3 {
+        font-size: 3rem;
+    }
+
+    #about div:last-child {
+        max-width: 50%;
+    }
+    
+    #projects {
+        height: auto;
+    }
+    #projects h2 {
+        margin-bottom: 2rem;
+    }
+    .container-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #projects div:first-child {
+        margin-bottom: 0;
+    }
+    .contact-container {
+        width: 60%;
+        margin: 5rem 8rem;
+    }
+    .details {
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+    .contact-details a i {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .contact-details .details a {
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    #form div input,
+    #form textarea,
+    #form input {
+        padding: 0.5rem;
+        font-size: 1.6rem;
+        border-radius: 1rem;
+        margin-bottom: 0.8rem;
+        border: 1px solid var(--primary-color);
+    }
+}
+
+@media only screen and (max-width: 42.5rem) {
+    #home {
+        height: 100vw;
+        background-position: calc(100% + 8rem) bottom;
+    }
+    #nav-bar {
+        max-width: 100%;
+    }
+    #nav-bar a {
+        padding: 0;
+    }
+    #nav-bar ul {
+        gap: 2rem;
+    }
+    .section-hero {
+        width: 80%;
+        margin: 4rem auto;
+    }
+    .section-hero p {
+        font-size: 2.5rem;
+    }
+    .section-hero h1 {
+        font-size: 4rem;
+    }
+    .section-hero h3 {
+        font-size: 2.5rem;
+    }
+    .section-hero ul {
+        margin-top: 1rem;
+        gap: 2rem;
+    }
+    .section-hero ul li a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+    /* ABOUT */
+    #about {
+        height: 100vw;
+    }
+    #about div h2 {
+        font-size: 2.5rem;
+    }
+
+    #about div:last-child {
+        max-width: 100%;
+    }
+    .video-container {
+        max-width: 100%;
+        margin: 0 4rem;
+    }
+    /* projects */
+    .container-box {
+        grid-template-columns: repeat(1, 100%);
+        column-gap: 0;
+        row-gap: 2rem;
+        padding: 0;
+        margin: 0 6rem;
+    }
+
+    .project-item {
+        height: 16rem;
+    }
+    
+    #projects h2 {
+        font-size: 2.5rem;
+    }
+
+    .project-item {
+        margin: 0;
+    }
+    /* Contact */
+    #contact {
+        height: auto;
+    }
+    .contact-container {
+        width: 90%;
+        margin: 5rem auto;
+    }
+    .contact-details {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto 1fr;
+        gap: 0;
+    }
+    .contact-details .details:last-child {
+        grid-column: 1 / span 2;
+    }
+    .details {
+        margin: 0;
+    }
+    .contact-details a i {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .contact-details .details a {
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    .details h3 {
+        font-size: 1.5rem;
+    }
+    .details p {
+        font-size: 1.2rem;
+    }
+    .contact-container h2 {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    #form div input,
+    #form textarea,
+    #form input {
+        font-size: 1.2rem;
+    }
+    #form #submit {
+        width: 25%;
+    }
+}

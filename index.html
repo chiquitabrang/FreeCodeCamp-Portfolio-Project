@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Dekko&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <section id="home">
+        <header id="header">
+            <!-- <img src="./Media/Logo.png" alt="logo of owner" id="header-img"> -->
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#home" class="link home">Home</a></li>
+                    <li><a href="#about" class="link about">About</a></li>
+                    <li><a href="#projects" class="link projects">Projects</a></li>
+                    <li><a href="#contact" class="link contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="section-hero">
+            <p class="animated-text">Hi!</p>
+            <h1 class="animated-text">I'm Eden Joyce</h1>
+            <h3 class="animated-text">an aspiring Front-End Web Developer.</h3>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/feed/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-messenger"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ej_b_b/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+            
+                </li>
+                <li>
+                    <a href="https://github.com/chiquitabrang">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="about">
+        <div>
+            <h2>A Little About Me</h2>
+        </div>
+        <div class="video-container">
+            <video controls poster="fallback.jpg" id="video">
+                <source src="./Media/Video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div>
+            <h2>My Works</h2>
+        </div>
+        <div class="container-box">
+            <div class="project-item">
+                <a href="https://netflix-clone-ten-silk-58.vercel.app/" class="project-item_link">
+                    <div class="project-item_bg netflix-clone"></div>
+                    <h2 class="project-item_text">Netflix Clone</h2>
+                </a>
+            </div>
+
+            <div class="project-item">
+                <a href="https://omnifood-website-eosin.vercel.app/" class="project-item_link">
+                    <div class="project-item_bg omnifood"></div>
+                    <h2 class="project-item_text">Omnifood</h2>
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/chiquitabrang/Web-Agency" class="project-item_link">
+                    <div class="project-item_bg web-agency"></div>
+                    <h2 class="project-item_text">Web Agency</h2>
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="https://product-landing-page-freecodecamp.vercel.app/" class="project-item_link">
+                    <div class="project-item_bg product-landing"></div>
+                    <h2 class="project-item_text">Product Landing Page</h2>
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="#" class="project-item_link">
+                    <div class="project-item_bg technical-documentation"></div>
+                    <h2 class="project-item_text">Technical Documentation Page</h2>
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/chiquitabrang/Tindog" class="project-item_link">
+                    <div class="project-item_bg tindog"></div>
+                    <h2 class="project-item_text">Tindog</h2>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-details">
+                <div class="details">
+                    <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    <h3>Address:</h3>
+                    <p>Philippines</p>
+                </div>
+
+                <div class="details">
+                    <a href=""><i class="fa-solid fa-phone"></i></a>
+                    <h3>Phone:</h3>
+                    <p>+63951 341 8534</p>
+                </div>
+
+                <div class="details">
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <h3>Email:</h3>
+                    <p>ryudenmaerre77@gmail.com</p>
+                </div>
+            </div>
+
+            <h2>Send a Message</h2>
+
+            <form action="https://www.freecodecamp.com/email-submit" method="post" id="form" class="details">
+                <div>
+                    <input type="text" placeholder="Name" class="name" required>
+                </div>
+
+                <div>
+                    <input type="email" placeholder="Email" required>
+                </div>
+
+                <textarea name="message" id="message" placeholder="Message" required></textarea>
+
+                <input type="submit" id="submit" value="Send Message">
+            </form>
+        </div>
+        <p class="footer">&copy;2024 Eden Joyce Baguiwan.</p>
+    </section>
+</body>
+</html>
