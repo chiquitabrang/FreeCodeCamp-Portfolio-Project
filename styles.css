@@ -225,12 +225,14 @@ body {
 }
 
 .video-container {
-    max-width: 40%;
+    width: 40%;
+    height: 50%;
     border-radius: 25px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 #about div:last-child {
@@ -239,8 +241,9 @@ body {
 
 #video {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
+    box-sizing: border-box;
 }
 /* PROJECTS */
 #projects {
@@ -485,6 +488,10 @@ body {
 #form #submit {
     width: 30%;
     align-self: center;
+}
+
+#form textarea {
+    resize: none;
 }
 
 #submit:hover {

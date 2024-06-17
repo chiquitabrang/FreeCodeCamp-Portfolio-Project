@@ -17,11 +17,10 @@
     .section-hero h3 {
         font-size: 3rem;
     }
-
-    #about div:last-child {
-        max-width: 50%;
+    .video-container {
+        width: 50%;
+        height: 50%;
     }
-    
     #projects {
         height: auto;
     }
@@ -34,9 +33,15 @@
     #projects div:first-child {
         margin-bottom: 0;
     }
+    .project-item {
+        height: 20rem;
+    }
+    #contact {
+        background-position: left bottom;
+    }
     .contact-container {
         width: 60%;
-        margin: 5rem 8rem;
+        margin: auto;
     }
     .details {
         padding: 0.5rem;
@@ -63,7 +68,7 @@
 
 @media only screen and (max-width: 42.5rem) {
     #home {
-        height: 100vw;
+        height: 100svh;
         background-position: calc(100% + 8rem) bottom;
     }
     #nav-bar {
@@ -100,17 +105,16 @@
     }
     /* ABOUT */
     #about {
-        height: 100vw;
+        height: 80svh;
+    }
+    #about div:first-child {
+        margin-top: 3rem;
     }
     #about div h2 {
         font-size: 2.5rem;
     }
-
-    #about div:last-child {
-        max-width: 100%;
-    }
     .video-container {
-        max-width: 100%;
+        width: 80%;
         margin: 0 4rem;
     }
     /* projects */
@@ -119,9 +123,11 @@
         column-gap: 0;
         row-gap: 2rem;
         padding: 0;
-        margin: 0 6rem;
+        margin: 0 6rem 3rem 6rem;
     }
-
+    #projects div:first-child {
+        margin-top: 2rem;
+    }
     .project-item {
         height: 16rem;
     }
@@ -135,10 +141,10 @@
     }
     /* Contact */
     #contact {
-        height: auto;
+        height: 100svh;
     }
     .contact-container {
-        width: 90%;
+        width: 80%;
         margin: 5rem auto;
     }
     .contact-details {
